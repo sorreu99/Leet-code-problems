@@ -1,5 +1,13 @@
-d = {1: 2, 3: 4}
-if 1 in d:
-    print("yes")
-d[9] = 6
-print(d)
+
+def isPalindrome( x) :
+    if x >=0:
+        rev = int("".join(str(x)[::-1]))
+        if  x==rev:
+             return True
+        else:
+
+             return False
+    elif x <0:
+        return False
+
+y=print(isPalindrome(121))
